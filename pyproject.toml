@@ -30,7 +30,7 @@ classifiers = [
 ]
 license = {"file" = "LICENSE"}
 keywords = ["async", "enumerate", "itertools", "builtins", "functools", "contextlib"]
-requires-python = "~=3.8"
+requires-python = ">=3.8"
 dependencies = []
 
 [project.optional-dependencies]
