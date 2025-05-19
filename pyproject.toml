@@ -1,9 +1,15 @@
 [build-system]
-requires = ["flit_core"]
-build-backend = "flit_core.buildapi"
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm.build]
+includes = [
+    "asyncstdlib",
+]
 
 [project]
-dynamic = ["version", "description"]
+dynamic = ["description"]
+version = "3.13.1"
 name = "asyncstdlib-fw"
 authors = [
     {name = "Max Kühn", email = "maxfischer2781@gmail.com"},
