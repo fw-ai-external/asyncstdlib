@@ -8,8 +8,8 @@ includes = [
 ]
 
 [project]
-dynamic = ["description"]
-version = "3.13.1"
+description = "Fork of asyncstdlib that work with fireworks-ai"
+version = "3.13.2"
 name = "asyncstdlib-fw"
 authors = [
     {name = "Max Kühn", email = "maxfischer2781@gmail.com"},
