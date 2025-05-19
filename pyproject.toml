@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 dynamic = ["version", "description"]
-name = "asyncstdlib"
+name = "asyncstdlib-fw"
 authors = [
     {name = "Max Kühn", email = "maxfischer2781@gmail.com"},
 ]
